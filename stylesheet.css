@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar{
+    background: transparent;
+    padding: 20px 0;
+    transition: 0.3s;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(255, 255, 255) !important;
+}
+
+/*tulisan Vista*/
+.navbar-brand span{
+    color: #0d6efd
+}
+
+.nav-link{
+    margin-left: 15px;
+    color: white !important;
+}
+
+/* Hero */
+.hero{
+    height: 100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/GAMBAR/nanda-firdaus-mjr_5_ntTf8-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.isi-hero h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.isi-hero p{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.tombol{
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+}
+
+.tombol:hover{
+    background-color: #0b5ed7;
+    color: white;
+}
+
+/* Statistik */
+.statistik{
+    margin-top: -50px;
+}
+
+.box-stat{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.box-stat h2{
+    color: #0d6efd;
+    font-size: 40px;
+}
+
+/* Destinasi */
+.destinasi{
+    padding: 80px 0;
+}
+
+.judul{
+    margin-bottom: 50px;
+}
+
+.kartu{
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.kartu:hover{
+    transform: translateY(-10px);
+}
+
+.kartu img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.kartu .card-body{
+    padding: 25px;
+}
+
+.kartu span{
+    color: #0d6efd;
+}
+
+/* Tentang */
+.tentang{
+    padding: 80px 0;
+    background-color: white;
+}
+
+.gambar-about{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Gallery */
+.gallery{
+    padding: 80px 0;
+}
+
+.foto-gallery{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.foto-gallery:hover{
+    transform: scale(1.03);
+}
+
+/* Footer */
+footer{
+    background-color: #111;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.sosial i{
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.copy{
+    margin-top: 20px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .hero{
+        text-align: center;
+    }
+
+    .isi-hero h1{
+        font-size: 38px;
+    }
+
+    .statistik{
+        margin-top: 30px;
+    }
+
+}
+
+.navbar{
+    background: transparent;
+    padding: 20px 0;
+    transition: 0.3s;
+}
+
+/* Navbar saat discroll */
+.navbar.scrolled{
+    background-color: rgba(0, 0, 0, 0.235);
+    backdrop-filter: blur(8px);
+    padding: 12px 0;
+}
+
+
+
+/* des */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 0;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    color: white !important;
+}
+
+.navbar-brand span{
+    color: #0d6efd;
+}
+
+.nav-link{
+    color: white !important;
+    margin-left: 15px;
+}
+
+/* Hero */
+.hero-destinasi{
+    height: 55vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/GAMBAR/nanda-firdaus-mjr_5_ntTf8-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-destinasi h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero-destinasi p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Destinasi */
+.daftar-destinasi{
+    padding: 80px 0;
+}
+
+.kartu-destinasi{
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.kartu-destinasi:hover{
+    transform: translateY(-10px);
+}
+
+.kartu-destinasi img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.kartu-destinasi .card-body{
+    padding: 25px;
+}
+
+.kartu-destinasi h5{
+    font-weight: 600;
+}
+
+.lokasi{
+    color: #0d6efd;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer{
+    background-color: #111;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.sosial{
+    margin: 20px 0;
+}
+
+.sosial i{
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.copy{
+    color: #aaa;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .hero-destinasi h1{
+        font-size: 38px;
+    }
+
+}
+
+
+/* paspnct wisata */
+/* Detail Hero */
+.detail-hero{
+    height: 50vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/GAMBAR/nanda-firdaus-mjr_5_ntTf8-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.detail-hero h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.detail-hero p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Detail Wisata */
+.detail-wisata{
+    padding: 80px 0;
+}
+
+.gambar-detail{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.detail-wisata h2{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.detail-wisata p{
+    line-height: 30px;
+}
+
+/* Info */
+.info-box{
+    margin-top: 25px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.info-box i{
+    color: #0d6efd;
+    margin-right: 10px;
+}
+
+.tombol-kembali{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+/* Gallery */
+.gallery-detail{
+    padding-bottom: 80px;
+}
+
+.foto-detail{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.foto-detail:hover{
+    transform: scale(1.03);
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .detail-hero h1{
+        font-size: 38px;
+    }
+
+}
+.info-wisata{
+    margin-top: 30px;
+}
+
+.box-info{
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.box-info i{
+    color: #0d6efd;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.box-info h6{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.box-info p{
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/*galeri*/
+
+/* Hero Galeri */
+.hero-galeri{
+    height: 50vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/GAMBAR/nanda-firdaus-mjr_5_ntTf8-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-galeri h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero-galeri p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Galeri */
+.section-galeri{
+    padding: 80px 0;
+}
+
+.gambar-galeri{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gambar-galeri:hover{
+    transform: scale(1.03);
+}
+
+
+/*ttng*/
+
+/* Hero Tentang */
+.hero-tentang{
+    height: 50vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/GAMBAR/nanda-firdaus-mjr_5_ntTf8-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-tentang h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero-tentang p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Tentang */
+.section-tentang{
+    padding: 80px 0;
+}
+
+.gambar-tentang{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.section-tentang h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-tentang p{
+    line-height: 30px;
+}
+
+/* Visi Misi */
+.visi-misi{
+    padding-bottom: 80px;
+}
+
+.box-visi{
+    background-color: #f5f5f5;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box-visi:hover{
+    transform: translateY(-10px);
+}
+
+.box-visi i{
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+.box-visi h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/*kntakk*/
+/* Hero Kontak */
+.hero-kontak{
+    height: 50vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/GAMBAR/nanda-firdaus-mjr_5_ntTf8-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-kontak h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero-kontak p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Kontak */
+.section-kontak{
+    padding: 80px 0;
+}
+
+.box-kontak,
+.box-info-kontak{
+    background-color: #f5f5f5;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.box-kontak h2,
+.box-info-kontak h2{
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.form-control{
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.tombol-kirim{
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+/* Info Kontak */
+.item-kontak{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+.item-kontak i{
+    font-size: 24px;
+    color: #0d6efd;
+    margin-right: 15px;
+}
+
+.item-kontak h6{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.item-kontak p{
+    margin: 0;
+}
